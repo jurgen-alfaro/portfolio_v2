@@ -3,10 +3,19 @@
 import { workData } from '@/assets/assets';
 import Image from 'next/image';
 import { useParams } from 'next/navigation';
+import { useEffect } from 'react';
 
 export default function ProjectDetail() {
   const params = useParams();
   const project = workData.find((p) => p.slug === params.id);
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  }, []);
 
   if (!project) {
     return (
