@@ -19,7 +19,7 @@ export default function ProjectDetail() {
   return (
     <>
       <div className="w-11/12 max-w-3xl min-h-screen mx-auto flex flex-col items-center justify-center gap-4 p-10">
-        <h1 className="text-4xl font-bold mb-6 w-full text-nowrap font-poppins">
+        <h1 className="text-3xl md:text-5xl font-bold mb-6 w-full font-poppins">
           {project.title}
         </h1>
         <p className="text-gray-700 dark:text-gray-300 mb-2 font-[Montserrat]">
