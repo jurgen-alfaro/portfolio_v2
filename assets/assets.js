@@ -61,10 +61,14 @@ import winscp from './winscp.png';
 import express from './expressjs.png';
 import jwt from './jwt.webp';
 import sequelize from './sequelize.svg';
+import mail from './mail.png';
+import mail_dark from './mail_dark.png';
 
 export const assets = {
   right_arrow_bold,
   sequelize,
+  mail,
+  mail_dark,
   jwt,
   express,
   winscp,
